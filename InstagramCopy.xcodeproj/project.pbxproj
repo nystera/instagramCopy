@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0191AAB2699F47300E6536F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0191AAA2699F47300E6536F /* LoginController.swift */; };
+		F0191AAD2699F47800E6536F /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0191AAC2699F47800E6536F /* RegistrationController.swift */; };
 		F04A4DDE2692781C00D220EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A4DDD2692781C00D220EC /* AppDelegate.swift */; };
 		F04A4DE02692781C00D220EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A4DDF2692781C00D220EC /* SceneDelegate.swift */; };
 		F04A4DE22692781C00D220EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A4DE12692781C00D220EC /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0191AAA2699F47300E6536F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F0191AAC2699F47800E6536F /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		F04A4DDA2692781C00D220EC /* InstagramCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04A4DDD2692781C00D220EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F04A4DDF2692781C00D220EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F0191AA92699F45800E6536F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F0191AAA2699F47300E6536F /* LoginController.swift */,
+				F0191AAC2699F47800E6536F /* RegistrationController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		F04A4DD12692781C00D220EC = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +127,7 @@
 		F04A4DF42692786300D220EC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F0191AA92699F45800E6536F /* Authentication */,
 				F04A4DF8269278E200D220EC /* MainTabController.swift */,
 				F04A4DFA269279EA00D220EC /* FeedController.swift */,
 				F04A4DFC269279FB00D220EC /* SearchController.swift */,
@@ -210,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F04A4DE22692781C00D220EC /* ViewController.swift in Sources */,
+				F0191AAB2699F47300E6536F /* LoginController.swift in Sources */,
 				F08CA8322692D0970093BD73 /* FeedCell.swift in Sources */,
 				F04A4DFF26927A0700D220EC /* ImageSelectorController.swift in Sources */,
 				F04A4E0126927A0F00D220EC /* NotificationController.swift in Sources */,
@@ -220,6 +235,7 @@
 				F04A4DF9269278E200D220EC /* MainTabController.swift in Sources */,
 				F08CA8342692D1EB0093BD73 /* Extensions.swift in Sources */,
 				F04A4DE02692781C00D220EC /* SceneDelegate.swift in Sources */,
+				F0191AAD2699F47800E6536F /* RegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
