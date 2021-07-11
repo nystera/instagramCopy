@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0120948269AC40900AB4CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0120947269AC40900AB4CAD /* Assets.xcassets */; };
 		F0191AAB2699F47300E6536F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0191AAA2699F47300E6536F /* LoginController.swift */; };
 		F0191AAD2699F47800E6536F /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0191AAC2699F47800E6536F /* RegistrationController.swift */; };
 		F0191AAF269A136C00E6536F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0191AAE269A136C00E6536F /* CustomTextField.swift */; };
@@ -21,12 +22,12 @@
 		F04A4DFF26927A0700D220EC /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A4DFE26927A0700D220EC /* ImageSelectorController.swift */; };
 		F04A4E0126927A0F00D220EC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A4E0026927A0F00D220EC /* NotificationController.swift */; };
 		F04A4E0326927A1700D220EC /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04A4E0226927A1700D220EC /* ProfileController.swift */; };
-		F04A4E0526927C1A00D220EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04A4E0426927C1A00D220EC /* Assets.xcassets */; };
 		F08CA8322692D0970093BD73 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08CA8312692D0970093BD73 /* FeedCell.swift */; };
 		F08CA8342692D1EB0093BD73 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08CA8332692D1EB0093BD73 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F0120947269AC40900AB4CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0191AAA2699F47300E6536F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		F0191AAC2699F47800E6536F /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		F0191AAE269A136C00E6536F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		F04A4DFE26927A0700D220EC /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
 		F04A4E0026927A0F00D220EC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		F04A4E0226927A1700D220EC /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
-		F04A4E0426927C1A00D220EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
 		F08CA8312692D0970093BD73 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		F08CA8332692D1EB0093BD73 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,7 +97,7 @@
 				F04A4DDF2692781C00D220EC /* SceneDelegate.swift */,
 				F04A4DE12692781C00D220EC /* ViewController.swift */,
 				F04A4DE32692781C00D220EC /* Main.storyboard */,
-				F04A4E0426927C1A00D220EC /* Assets.xcassets */,
+				F0120947269AC40900AB4CAD /* Assets.xcassets */,
 				F04A4DE82692781D00D220EC /* LaunchScreen.storyboard */,
 				F04A4DEB2692781D00D220EC /* Info.plist */,
 			);
@@ -214,7 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F04A4DEA2692781D00D220EC /* LaunchScreen.storyboard in Resources */,
-				F04A4E0526927C1A00D220EC /* Assets.xcassets in Resources */,
+				F0120948269AC40900AB4CAD /* Assets.xcassets in Resources */,
 				F04A4DE52692781C00D220EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
