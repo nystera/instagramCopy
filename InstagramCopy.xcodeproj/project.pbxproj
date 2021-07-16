@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F0120948269AC40900AB4CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0120947269AC40900AB4CAD /* Assets.xcassets */; };
+		F012094A269AF10B00AB4CAD /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0120949269AF10B00AB4CAD /* AuthenticationViewModel.swift */; };
 		F0191AAB2699F47300E6536F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0191AAA2699F47300E6536F /* LoginController.swift */; };
 		F0191AAD2699F47800E6536F /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0191AAC2699F47800E6536F /* RegistrationController.swift */; };
 		F0191AAF269A136C00E6536F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0191AAE269A136C00E6536F /* CustomTextField.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		F0120947269AC40900AB4CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0120949269AF10B00AB4CAD /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		F0191AAA2699F47300E6536F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		F0191AAC2699F47800E6536F /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		F0191AAE269A136C00E6536F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		F04A4DF32692785700D220EC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F0120949269AF10B00AB4CAD /* AuthenticationViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				F08CA8322692D0970093BD73 /* FeedCell.swift in Sources */,
 				F04A4DFF26927A0700D220EC /* ImageSelectorController.swift in Sources */,
 				F04A4E0126927A0F00D220EC /* NotificationController.swift in Sources */,
+				F012094A269AF10B00AB4CAD /* AuthenticationViewModel.swift in Sources */,
 				F04A4DFD269279FB00D220EC /* SearchController.swift in Sources */,
 				F04A4DDE2692781C00D220EC /* AppDelegate.swift in Sources */,
 				F04A4E0326927A1700D220EC /* ProfileController.swift in Sources */,
